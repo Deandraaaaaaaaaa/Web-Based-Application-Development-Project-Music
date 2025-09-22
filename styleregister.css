@@ -1,0 +1,214 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.628);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+
+#tulisanlogo {
+    color: white;
+    font-weight: bold;
+    padding-left: 1rem;
+    font-size: xx-large;
+    text-decoration: none;
+}
+
+#linkhome {
+    color: white;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   border: 1px solid black;
+}
+
+#tulisanregister {
+    text-decoration: none;
+    color: white;
+    padding: 1rem 2rem;
+    
+
+}
+
+#buttonregister {
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.628);
+    padding: 0.4    rem;
+}
+
+#profilephoto {
+    border-radius: 10rem;
+    width: 4.2rem;
+    padding-right: 1rem;
+}
+
+#searchbar {
+    border-radius: 10rem;
+    padding: 0.7rem;
+    border: none;
+    width: 50rem;
+    
+}
+
+#aboutus {
+    color: white;
+    text-decoration: none;
+    padding: 3rem;
+}
+
+#linkhome {
+    color: white;
+    text-decoration: none;
+}
+
+#aboutus:hover {
+    opacity: 40%;
+}
+
+#collection {
+    color: white;
+    text-decoration: none;
+    padding: 3rem;
+}
+
+#collection:hover {
+    opacity: 40%;
+}
+
+.borderuntuksidebar {
+    border: 1px solid black;
+    position: absolute;
+    height: 60rem;
+   
+}
+
+hr {
+    opacity: 30%;
+}
+
+.register-container {
+    max-width: 400px;
+    margin: 5rem auto;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 1rem;
+    
+    color: white;
+
+}
+
+.register-container h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 0.4rem;
+    font-weight: bold;
+}
+
+input, select {
+    margin-bottom: 1rem;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+button[type="submit"] {
+    background-color: white;
+    color: black;
+    padding: 0.8rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #ccc;
+}
+
+@media(max-width: 800px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+  }
+
+  #searchbar {
+    width: 90%;
+    margin-top: 1rem;
+  }
+
+  .borderuntuksidebar {
+    position: static;
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+
+  .register-container,
+  #happylisten,
+  #freemusic,
+  #newrelease,
+  #newreleasesongs,
+  #newreleasesongs2 {
+    padding: 1rem;
+    margin: 1rem auto;
+    width: 90%;
+  }
+
+  .register-container input,
+  .register-container select,
+  .register-container button {
+    width: 100%;
+  }
+
+  .team,
+  #newreleasesongs,
+  #newreleasesongs2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #gedung,
+  #gambarcontact,
+  #backgroundmerah {
+    width: 100% !important;
+    margin-left: 0 !important;
+    position: static !important;
+  }
+
+  #fotodean,
+  #fotogladwin,
+  #judul1, #judul2, #judul3, #judul4, #judul5, #judul6, #judul7, #judul8 {
+    position: static;
+    margin: 1rem auto;
+    display: block;
+    text-align: center;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  h1, h2, h3, p {
+    text-align: center;
+    padding: 0 1rem;
+  }
+
+  #profilephoto {
+    width: 3rem;
+  }
+}
